@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "424291433993",
+    "project_id": "daewooexpress-68b46",
+    "storage_bucket": "daewooexpress-68b46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424291433993:android:0a1e73af3bd106799382d8",
+        "android_client_info": {
+          "package_name": "com.rabiya.deawooexpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424291433993-5ul9s0m888r7b5mokqk2hqf3d6h8s4ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYrk4BmfkzvQ3eJzMik7b_b9AF7lEHpM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424291433993-5ul9s0m888r7b5mokqk2hqf3d6h8s4ao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Deawoo Express</string>
+    <string-array name="Spinner_item">
+        <item>Karachi</item>
+        <item>Lahore</item>
+        <item>Hyderabad</item>
+        <item>Multan</item>
+        <item>Sukkur</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BookSeats">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="@drawable/hom"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:paddingTop="20dp"
+            android:text="Book Seats"
+            android:textColor="#fafafa"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/loc"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:text="Departure Terminal"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:paddingLeft="20dp"
+            android:id="@+id/aSpinner"
+            android:layout_width="367dp"
+            android:layout_height="61dp"
+            android:layout_margin="20dp"
+            android:entries="@array/Spinner_item" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/loc"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:text="Arrival Terminal"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/bSpinner"
+            android:paddingLeft="20dp"
+            android:layout_width="367dp"
+            android:layout_height="61dp"
+            android:layout_margin="20dp"
+            android:entries="@array/Spinner_item" />
+
+        <Button
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/butn"
+            android:text="Book Seat"
+            android:textColor="#ffff"
+            android:textSize="20dp">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

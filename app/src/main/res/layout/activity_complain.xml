@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BookSeats">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="@drawable/hom"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:paddingTop="20dp"
+            android:text="Buy Tickets"
+            android:textColor="#fafafa"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/com"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:text="Complain / Suggestion"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="323dp"
+            android:layout_height="43dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/text"
+            android:hint="Complain/Suggestion"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_margin="20dp"
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/butn"
+            android:text="Send"
+            android:textColor="#ffff"
+            android:textSize="20dp">
+
+        </Button>
+    </LinearLayout>
+</LinearLayout>
